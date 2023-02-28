@@ -1,0 +1,123 @@
+.container1 {
+  background-color: black;
+  color: whitesmoke;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30;
+  height: 200px;
+}
+
+.ShopInStyle{
+  font-weight: bold;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.hompeageTemplate{
+  font-size: 20px;
+  margin-top: 0;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.container{
+  background-color: orange;
+  width: 250px;
+  display: grid;
+  text-align: center;
+  margin: 25px;
+  border: 1px solid rgba(189, 2, 2, 0);
+}
+
+.img{
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+
+}
+
+.name{
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.rating{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price{
+  font-size: large;
+  margin-top: 10px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.item{
+  display: grid;
+  gap: 15px;
+  flex-wrap: wrap;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.button{
+  margin-bottom: 15px;
+  width: 100px;
+  height: 30px;
+  margin-left: 77px;
+}
+
+.add-list{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 500px;
+  margin: 10px auto;
+}
+
+.nav{
+  list-style-type:none;
+  
+  overflow: hidden;
+  gap: 100px;
+}
+
+.navbar{
+  height:90px;
+  display: flex;
+  background-color: rgb(84, 88, 87);
+  padding: 10px;
+}
+
+.center{
+  padding-top: 50px;
+  padding-bottom: 70px;
+  text-align:center;
+  font-weight:bolder;
+  color:rgb(252, 251, 251);
+  background-image: url("https://www.pixelproductionsinc.com/wp-content/uploads/2020/12/How-To-Set-Up-An-Online-Grocery-Business-1024x444.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+  height:200px ;
+  font-size: 30px;
+}
+
+.dropdown { 
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #403c3c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
